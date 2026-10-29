@@ -1,6 +1,6 @@
 module github.com/shirou/gopsutil/v3
 
-go 1.15
+go 1.26.0
 
 require (
 	github.com/google/go-cmp v0.5.6
@@ -9,5 +9,14 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/tklauser/go-sysconf v0.3.9
 	github.com/yusufpapurcu/wmi v1.2.2
-	golang.org/x/sys v0.0.0-20211013075003-97ac67df715c
+	golang.org/x/sys v0.49.0
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/go-ole/go-ole v1.2.6 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/tklauser/numcpus v0.3.0 // indirect
+	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
