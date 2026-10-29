@@ -8,6 +8,6 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c
 	github.com/stretchr/testify v1.7.0
 	github.com/tklauser/go-sysconf v0.3.9
-	github.com/yusufpapurcu/wmi v1.2.2
+	github.com/yusufpapurcu/wmi v1.2.4
 	golang.org/x/sys v0.0.0-20211013075003-97ac67df715c
 )
